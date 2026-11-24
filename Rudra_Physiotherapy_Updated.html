@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#244b3b">
+  <meta name="description" content="Rudra Physiotherapy in Beleghata, Kolkata. Physiotherapy, pain management and rehabilitation near Subhas Sarobar Park. Call +91 96740 73711 for enquiries.">
+  <meta property="og:title" content="Rudra Physiotherapy | Beleghata, Kolkata">
+  <meta property="og:description" content="Physiotherapy and rehabilitation in Beleghata, Kolkata. Find the clinic, check hours and contact Rudra Physiotherapy.">
+  <meta property="og:type" content="website">
+  <title>Rudra Physiotherapy | Physiotherapy in Beleghata, Kolkata</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #244b3b;
+      --green-dark: #17372b;
+      --green-mid: #39745a;
+      --sage: #e8efe7;
+      --sage-2: #f2f6f0;
+      --cream: #fbf9f3;
+      --white: #fff;
+      --ink: #222c27;
+      --muted: #64716a;
+      --line: #e1e7df;
+      --gold: #d5a956;
+      --shadow: 0 18px 50px rgba(25, 54, 40, .10);
+      --radius: 22px;
+      --sans: 'DM Sans', 'Manrope', system-ui, sans-serif;
+      --display: 'Manrope', 'DM Sans', system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+    body { margin: 0; color: var(--ink); background: var(--cream); font: 400 16px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
+    body, button, a { -webkit-tap-highlight-color: transparent; }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button { font: inherit; }
+    ::selection { background: var(--green); color: #fff; }
+    :focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+    .wrap { width: min(1160px, calc(100% - 44px)); margin-inline: auto; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--green-mid); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .eyebrow::before { content: ''; width: 24px; height: 2px; border-radius: 3px; background: var(--gold); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: var(--display); }
+    h1 { margin: 17px 0 20px; max-width: 680px; color: var(--green-dark); font-size: clamp(2.7rem, 6.5vw, 5.2rem); line-height: 1.02; letter-spacing: -.065em; }
+    h1 em { color: var(--green-mid); font-style: normal; }
+    h2 { margin-bottom: 15px; color: var(--green-dark); font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.1; letter-spacing: -.05em; }
+    h3 { color: var(--green-dark); line-height: 1.25; }
+    .section { padding: 94px 0; }
+    .section-head { max-width: 670px; margin-bottom: 42px; }
+    .section-head p { margin-bottom: 0; color: var(--muted); font-size: 1.07rem; }
+    .topline { background: var(--green-dark); color: rgba(255,255,255,.9); font-size: 12px; letter-spacing: .035em; }
+    .topline .wrap { min-height: 36px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .topline a { color: #fff; text-decoration: none; font-weight: 700; }
+    .site-header { position: sticky; top: 0; z-index: 50; background: rgba(251,249,243,.94); border-bottom: 1px solid rgba(36,75,59,.10); backdrop-filter: blur(15px); }
+    .header-inner { min-height: 78px; display: flex; align-items: center; gap: 22px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; flex: 0 0 auto; text-decoration: none; }
+    .brand-mark { display: grid; place-items: center; width: 43px; height: 43px; border-radius: 14px 14px 14px 5px; color: #fff; background: var(--green); box-shadow: 0 7px 18px rgba(36,75,59,.18); }
+    .brand-mark svg { width: 23px; height: 23px; }
+    .brand-name { display: block; color: var(--green-dark); font: 800 16px/1.12 var(--display); letter-spacing: -.035em; }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .main-nav { display: flex; align-items: center; gap: 5px; margin-left: auto; }
+    .main-nav a { padding: 11px 12px; color: #536158; border-radius: 999px; font-size: 13px; font-weight: 700; text-decoration: none; transition: .2s ease; }
+    .main-nav a:hover, .main-nav a.active { color: var(--green-dark); background: var(--sage); }
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .menu-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 13px; background: #fff; color: var(--green); cursor: pointer; }
+    .menu-toggle svg { width: 21px; height: 21px; }
+    .btn { min-height: 48px; display: inline-flex; justify-content: center; align-items: center; gap: 9px; padding: 12px 20px; border: 1px solid transparent; border-radius: 999px; font-size: 14px; font-weight: 800; text-decoration: none; cursor: pointer; transition: transform .18s ease, background .18s ease, box-shadow .18s ease; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #fff; background: var(--green); box-shadow: 0 9px 22px rgba(36,75,59,.17); }
+    .btn-primary:hover { background: var(--green-dark); box-shadow: 0 12px 26px rgba(36,75,59,.22); }
+    .btn-outline { color: var(--green); background: transparent; border-color: rgba(36,75,59,.28); }
+    .btn-outline:hover { background: var(--sage); }
+    .btn svg { width: 17px; height: 17px; flex: 0 0 auto; }
+
+    .hero { position: relative; overflow: hidden; padding: 68px 0 48px; }
+    .hero::before { content: ''; position: absolute; top: -180px; right: -170px; width: 540px; height: 540px; border-radius: 50%; background: radial-gradient(circle, rgba(216,230,214,.75), rgba(216,230,214,0) 68%); pointer-events: none; }
+    .hero-grid { position: relative; display: grid; grid-template-columns: 1.04fr .96fr; gap: clamp(34px, 6vw, 78px); align-items: center; }
+    .hero-copy { padding: 12px 0 20px; }
+    .hero-copy .lead { max-width: 570px; margin: 0; color: var(--muted); font-size: clamp(1.05rem, 1.8vw, 1.22rem); line-height: 1.75; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 29px; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 13px 24px; margin-top: 31px; color: var(--muted); font-size: 13px; font-weight: 700; }
+    .hero-meta span { display: inline-flex; align-items: center; gap: 8px; }
+    .hero-meta svg { width: 17px; height: 17px; color: var(--green-mid); }
+    .hero-visual { position: relative; min-width: 0; padding: 10px 10px 32px 24px; }
+    .hero-photo { position: relative; overflow: hidden; min-height: 460px; border-radius: 48% 48% 24px 24px / 22% 22% 24px 24px; background: var(--sage); box-shadow: var(--shadow); }
+    .hero-photo img { width: 100%; height: 100%; min-height: 460px; position: absolute; inset: 0; object-fit: cover; object-position: center; }
+    .hero-photo::after { content: ''; position: absolute; inset: 45% 0 0; background: linear-gradient(transparent, rgba(19,48,36,.52)); }
+    .photo-label { position: absolute; z-index: 2; left: 24px; right: 24px; bottom: 24px; color: #fff; }
+    .photo-label strong { display: block; font: 800 19px/1.2 var(--display); }
+    .photo-label span { display: block; margin-top: 5px; color: rgba(255,255,255,.85); font-size: 12px; }
+    .floating-card { position: absolute; z-index: 3; left: -4px; bottom: 0; display: flex; align-items: center; gap: 12px; padding: 14px 17px; border: 1px solid rgba(36,75,59,.08); border-radius: 16px; background: #fff; box-shadow: var(--shadow); }
+    .floating-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 13px; color: var(--green); background: var(--sage); }
+    .floating-icon svg { width: 22px; height: 22px; }
+    .floating-card strong { display: block; color: var(--green-dark); font: 800 14px/1.2 var(--display); }
+    .floating-card span { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; }
+
+    .trust-strip { position: relative; z-index: 4; margin-top: 30px; }
+    .trust-inner { display: grid; grid-template-columns: repeat(3,1fr); overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.82); box-shadow: 0 10px 32px rgba(25,54,40,.045); }
+    .trust-item { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 82px; padding: 14px 20px; }
+    .trust-item + .trust-item { border-left: 1px solid var(--line); }
+    .trust-icon { display: grid; place-items: center; width: 39px; height: 39px; flex: 0 0 auto; border-radius: 12px; color: var(--green); background: var(--sage); }
+    .trust-icon svg { width: 19px; height: 19px; }
+    .trust-item strong { display: block; color: var(--green-dark); font: 800 14px/1.2 var(--display); }
+    .trust-item small { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; }
+
+    .intro { background: #fff; }
+    .intro-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(36px, 7vw, 90px); align-items: center; }
+    .intro-photo { position: relative; overflow: hidden; min-height: 420px; border-radius: 24px; background: var(--sage); }
+    .intro-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .image-tag { position: absolute; left: 18px; bottom: 18px; padding: 10px 14px; border-radius: 11px; background: rgba(255,255,255,.94); color: var(--green-dark); font-size: 12px; font-weight: 800; box-shadow: 0 8px 25px rgba(0,0,0,.08); }
+    .intro-copy p { color: var(--muted); }
+    .intro-points { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 24px; }
+    .intro-point { display: flex; align-items: flex-start; gap: 10px; color: var(--ink); font-size: 13px; font-weight: 700; }
+    .check { display: grid; place-items: center; width: 22px; height: 22px; flex: 0 0 auto; border-radius: 50%; color: #fff; background: var(--green-mid); }
+    .check svg { width: 13px; height: 13px; }
+
+    .services { background: var(--sage-2); }
+    .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+    .service-card { min-height: 214px; padding: 25px 23px; border: 1px solid rgba(36,75,59,.09); border-radius: 18px; background: #fff; transition: transform .2s ease, box-shadow .2s ease; }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .service-icon { display: grid; place-items: center; width: 47px; height: 47px; margin-bottom: 19px; border-radius: 15px; color: var(--green); background: var(--sage); }
+    .service-icon svg { width: 23px; height: 23px; }
+    .service-card h3 { margin-bottom: 8px; font-size: 17px; letter-spacing: -.025em; }
+    .service-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.65; }
+    .service-note { margin-top: 20px; color: var(--muted); font-size: 12px; }
+
+    .gallery { background: #fff; }
+    .gallery-grid { display: grid; grid-template-columns: 1.15fr .85fr .85fr; gap: 16px; }
+    .gallery-card { position: relative; min-height: 270px; overflow: hidden; border-radius: 18px; background: var(--sage); }
+    .gallery-card:first-child { min-height: 365px; grid-row: span 2; }
+    .gallery-card img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; transition: transform .45s ease; }
+    .gallery-card:hover img { transform: scale(1.04); }
+    .gallery-card::after { content: ''; position: absolute; inset: 48% 0 0; background: linear-gradient(transparent, rgba(19,48,36,.62)); }
+    .gallery-caption { position: absolute; z-index: 2; left: 19px; right: 18px; bottom: 17px; color: #fff; font: 800 15px/1.25 var(--display); }
+    .stock-note { margin: 18px 0 0; color: var(--muted); font-size: 11px; }
+
+    .process { background: var(--cream); }
+    .steps-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; counter-reset: step; }
+    .step-card { position: relative; padding: 28px 25px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+    .step-number { display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 20px; border-radius: 14px; color: #fff; background: var(--green); font: 800 16px/1 var(--display); }
+    .step-card h3 { margin-bottom: 9px; font-size: 18px; }
+    .step-card p { margin: 0; color: var(--muted); font-size: 13px; }
+
+    .home-visit { padding: 0 0 94px; background: var(--cream); }
+    .home-panel { display: grid; grid-template-columns: 1.2fr .8fr; gap: 30px; align-items: center; overflow: hidden; padding: clamp(30px,5vw,54px); border-radius: 26px; color: #fff; background: var(--green); }
+    .home-panel .eyebrow { color: #d9e6d9; }
+    .home-panel h2 { color: #fff; }
+    .home-panel p { max-width: 610px; margin-bottom: 23px; color: rgba(255,255,255,.8); }
+    .home-panel .btn-primary { color: var(--green-dark); background: #fff; box-shadow: none; }
+    .home-panel .btn-primary:hover { background: #eaf1e8; }
+    .home-art { width: 100%; max-height: 235px; object-fit: cover; border-radius: 18px; }
+
+    .feedback { background: var(--sage-2); }
+    .feedback-grid { display: grid; grid-template-columns: .72fr 1.28fr; gap: 24px; align-items: stretch; }
+    .rating-card { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 30px; border-radius: 20px; background: var(--green); color: #fff; }
+    .rating-card .stars { color: #ffd278; font-size: 21px; letter-spacing: 3px; }
+    .rating-card strong { display: block; margin-top: 11px; font: 800 clamp(2.7rem,5vw,4rem)/1 var(--display); letter-spacing: -.06em; }
+    .rating-card p { margin: 10px 0 0; color: rgba(255,255,255,.8); font-size: 13px; }
+    .rating-card a { margin-top: 20px; color: #fff; font-size: 13px; font-weight: 800; text-underline-offset: 4px; }
+    .feedback-points { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .feedback-item { padding: 23px; border: 1px solid var(--line); border-radius: 17px; background: #fff; }
+    .feedback-item h3 { margin-bottom: 8px; font-size: 15px; }
+    .feedback-item p { margin: 0; color: var(--muted); font-size: 12px; }
+    .feedback-disclaimer { margin: 18px 0 0; color: var(--muted); font-size: 11px; }
+
+    .visit { background: #fff; }
+    .visit-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 35px; align-items: stretch; }
+    .contact-card { padding: 30px; border: 1px solid var(--line); border-radius: 20px; background: var(--cream); }
+    .contact-block { display: flex; align-items: flex-start; gap: 13px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+    .contact-block:last-of-type { border-bottom: 0; }
+    .contact-icon { display: grid; place-items: center; width: 40px; height: 40px; flex: 0 0 auto; border-radius: 13px; color: var(--green); background: var(--sage); }
+    .contact-icon svg { width: 19px; height: 19px; }
+    .contact-block small { display: block; margin-bottom: 3px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .contact-block strong, .contact-block a { display: block; color: var(--green-dark); font-size: 14px; font-weight: 700; line-height: 1.55; text-decoration: none; }
+    .contact-block a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .visit-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .map-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 20px; background: var(--sage-2); }
+    .map-card iframe { display: block; width: 100%; min-height: 420px; flex: 1; border: 0; }
+    .map-bottom { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 15px 18px; color: var(--muted); font-size: 12px; }
+    .map-bottom a { color: var(--green); font-weight: 800; text-decoration: none; }
+
+    .faq { background: var(--cream); }
+    .faq-grid { display: grid; grid-template-columns: .7fr 1.3fr; gap: 45px; }
+    .faq-list details { padding: 18px 0; border-bottom: 1px solid var(--line); }
+    .faq-list summary { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: var(--green-dark); font-weight: 800; cursor: pointer; list-style: none; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after { content: '+'; color: var(--green-mid); font-size: 23px; font-weight: 500; }
+    .faq-list details[open] summary::after { content: '−'; }
+    .faq-list p { margin: 11px 30px 0 0; color: var(--muted); font-size: 13px; }
+
+    .footer { padding: 30px 0 90px; color: rgba(255,255,255,.76); background: var(--green-dark); }
+    .footer-main { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .footer .brand-name { color: #fff; }
+    .footer .brand-sub { color: rgba(255,255,255,.6); }
+    .footer p { margin: 0; font-size: 11px; }
+    .footer a { color: #fff; text-decoration: none; }
+    .footer-bottom { display: flex; justify-content: space-between; gap: 18px; margin-top: 23px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.13); }
+    .mobile-bar { display: none; }
+
+    @media (max-width: 980px) {
+      .main-nav { gap: 0; }
+      .main-nav a { padding-inline: 9px; font-size: 12px; }
+      .header-actions .btn { min-height: 43px; padding: 10px 15px; }
+      .hero-grid { gap: 35px; }
+      .hero-photo, .hero-photo img { min-height: 410px; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .gallery-card:first-child { grid-row: auto; min-height: 300px; }
+      .gallery-card { min-height: 250px; }
+    }
+    @media (max-width: 760px) {
+      html { scroll-padding-top: 75px; }
+      .wrap { width: min(100% - 32px, 600px); }
+      .topline .wrap { justify-content: center; text-align: center; min-height: 34px; }
+      .topline .topline-location { display: none; }
+      .header-inner { min-height: 68px; gap: 10px; }
+      .brand-mark { width: 39px; height: 39px; }
+      .brand-name { font-size: 15px; }
+      .brand-sub { font-size: 9px; }
+      .header-actions { margin-left: auto; }
+      .header-actions .btn { display: none; }
+      .menu-toggle { display: grid; place-items: center; }
+      .main-nav { display: none; position: absolute; top: calc(100% + 1px); left: 0; right: 0; padding: 12px 16px 18px; flex-direction: column; align-items: stretch; background: var(--cream); border-bottom: 1px solid var(--line); box-shadow: 0 18px 25px rgba(25,54,40,.08); }
+      .main-nav.open { display: flex; }
+      .main-nav a { padding: 13px 15px; font-size: 14px; }
+      .hero { padding: 42px 0 34px; }
+      .hero-grid, .intro-grid, .visit-grid, .faq-grid { grid-template-columns: 1fr; }
+      .hero-grid { gap: 22px; }
+      h1 { max-width: 570px; font-size: clamp(2.65rem, 13vw, 4.5rem); }
+      .hero-copy .lead { font-size: 1rem; }
+      .hero-actions .btn { flex: 1; }
+      .hero-visual { padding: 0 0 25px 12px; }
+      .hero-photo, .hero-photo img { min-height: 350px; }
+      .floating-card { left: 0; }
+      .trust-strip { margin-top: 22px; }
+      .trust-inner { grid-template-columns: 1fr; }
+      .trust-item { justify-content: flex-start; min-height: 68px; padding: 12px 18px; }
+      .trust-item + .trust-item { border-left: 0; border-top: 1px solid var(--line); }
+      .section { padding: 70px 0; }
+      .section-head { margin-bottom: 30px; }
+      .intro-grid { gap: 29px; }
+      .intro-photo { min-height: 330px; }
+      .service-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .service-card { min-height: 205px; padding: 19px 17px; }
+      .service-card h3 { font-size: 15px; }
+      .service-card p { font-size: 12px; }
+      .gallery-grid { gap: 11px; }
+      .gallery-card, .gallery-card:first-child { min-height: 220px; }
+      .gallery-caption { left: 13px; right: 12px; bottom: 13px; font-size: 13px; }
+      .steps-grid { grid-template-columns: 1fr; gap: 12px; }
+      .step-card { display: grid; grid-template-columns: 48px 1fr; column-gap: 14px; padding: 20px; }
+      .step-number { grid-row: span 2; margin: 0; }
+      .step-card h3 { margin: 3px 0 5px; }
+      .home-visit { padding-bottom: 70px; }
+      .home-panel { grid-template-columns: 1fr; padding: 28px 23px; }
+      .home-art { max-height: 210px; }
+      .feedback-grid { grid-template-columns: 1fr; }
+      .rating-card { padding: 25px; }
+      .feedback-points { gap: 10px; }
+      .feedback-item { padding: 18px; }
+      .contact-card { padding: 22px; }
+      .map-card iframe { min-height: 330px; }
+      .faq-grid { gap: 10px; }
+      .footer-main, .footer-bottom { flex-direction: column; align-items: flex-start; }
+      .footer { padding-bottom: 105px; }
+      .mobile-bar { position: fixed; z-index: 60; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 9px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); background: rgba(255,255,255,.96); box-shadow: 0 -8px 25px rgba(25,54,40,.10); backdrop-filter: blur(12px); }
+      .mobile-bar .btn { min-height: 48px; padding: 10px; }
+    }
+    @media (max-width: 420px) {
+      .hero-actions { display: grid; grid-template-columns: 1fr; }
+      .hero-photo, .hero-photo img { min-height: 300px; }
+      .service-grid { grid-template-columns: 1fr; }
+      .service-card { min-height: 0; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gallery-card, .gallery-card:first-child { min-height: 260px; }
+      .intro-points { grid-template-columns: 1fr; }
+      .feedback-points { grid-template-columns: 1fr; }
+      .map-bottom { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Rudra Physiotherapy",
+    "telephone": "+91 96740 73711",
+    "description": "Physiotherapy, pain management and rehabilitation in Beleghata, Kolkata.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "132A, P.O., Raja Rajendra Lal Mitra Road, Kabi Sukanta Sarani, Subhas Sarobar Park, P.S. Beleghata",
+      "addressLocality": "Kolkata",
+      "addressRegion": "West Bengal",
+      "postalCode": "700010",
+      "addressCountry": "IN"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 22.5683448, "longitude": 88.3895992 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:30",
+      "closes": "21:30"
+    }],
+    "sameAs": ["https://www.google.com/maps/place/Rudra+Physiotherapy/@22.5692039,88.3905282,16.25z/data=!4m6!3m5!1s0x3a027702ded254b1:0x1b6b0f1e5f1e068f!8m2!3d22.5683448!4d88.3895992!16s%2Fg%2F11ty4h1k4l"]
+  }
+  </script>
+</head>
+<body>
+  <div class="topline">
+    <div class="wrap">
+      <span>Physiotherapy &amp; rehabilitation in Beleghata, Kolkata</span>
+      <span class="topline-location">Daily · 8:30 AM – 9:30 PM</span>
+      <a href="tel:+919674073711">Call +91 96740 73711</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="Rudra Physiotherapy home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3.5c4.5 4.1 4.5 12.9 0 17-4.5-4.1-4.5-12.9 0-17Z" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.5v11M12 12l-3-2M12 15l3-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <span><span class="brand-name">Rudra Physiotherapy</span><span class="brand-sub">Move better · Live better</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Treatments</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#approach">Your visit</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-primary" href="tel:+919674073711"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 3.8h2.7l1.3 4.1-1.8 1.6a15 15 0 0 0 5.7 5.7l1.6-1.8 4.1 1.3v2.7c0 1.1-.9 2-2 2C10.4 19.4 4.6 13.6 4.6 5.8c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Call now</a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-controls="mainNav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Beleghata · Kolkata</span>
+            <h1>Feel stronger.<br><em>Move with ease.</em></h1>
+            <p class="lead">Physiotherapy and rehabilitation focused on helping you manage pain, improve mobility and work towards everyday movement with greater confidence.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="tel:+919674073711"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 3.8h2.7l1.3 4.1-1.8 1.6a15 15 0 0 0 5.7 5.7l1.6-1.8 4.1 1.3v2.7c0 1.1-.9 2-2 2C10.4 19.4 4.6 13.6 4.6 5.8c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Call to enquire</a>
+              <a class="btn btn-outline" href="https://wa.me/919674073711?text=Hello%20Rudra%20Physiotherapy%2C%20I%27d%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.5c.3 2.5 2 4.4 4.5 5.2l1-1.1 2 .8c-.1 1.3-.9 2.1-2.2 2.1-3.5-.3-6.7-3.5-7-7 0-1.3.8-2.1 2.1-2.2l.8 2L9 8.5Z" fill="currentColor"/></svg>WhatsApp us</a>
+            </div>
+            <div class="hero-meta">
+              <span><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg>Near Subhas Sarobar Park</span>
+              <span><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Open daily · 8:30 AM–9:30 PM</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-photo">
+              <img src="https://images.pexels.com/photos/20860624/pexels-photo-20860624/free-photo-of-patient-exercising-under-care-of-therapist.jpeg?auto=compress&amp;dpr=1&amp;h=1050&amp;w=1400" alt="Physiotherapist guiding a patient through a rehabilitation exercise" fetchpriority="high">
+              <div class="photo-label"><strong>Support for every step forward</strong><span>Physiotherapy · Mobility · Rehabilitation</span></div>
+            </div>
+            <div class="floating-card">
+              <span class="floating-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m12 3 2.1 5.8L20 11l-5.9 2.1L12 19l-2.1-5.9L4 11l5.9-2.2L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m19 16 .9 2.1L22 19l-2.1.9L19 22l-.9-2.1L16 19l2.1-.9L19 16Z" fill="currentColor"/></svg></span>
+              <span><strong>Personal attention</strong><span>Care that starts by listening</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="trust-strip">
+          <div class="trust-inner">
+            <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m12 3 2.7 5.5 6 .9-4.3 4.2 1 6-5.4-2.9-5.4 2.9 1-6-4.3-4.2 6-.9L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span><span><strong>5.0 / 5 Google rating</strong><small>26 reviews on the listing</small></span></div>
+            <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg></span><span><strong>Beleghata, Kolkata</strong><small>Subhas Sarobar Park area</small></span></div>
+            <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span><strong>Open every day</strong><small>8:30 AM – 9:30 PM</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="wrap intro-grid">
+        <div class="intro-photo">
+          <img src="https://images.pexels.com/photos/20860580/pexels-photo-20860580/free-photo-of-physiotherapist-and-patient.jpeg?auto=compress&amp;dpr=1&amp;h=1100&amp;w=900" alt="Physiotherapist assisting a patient during a treatment session" loading="lazy">
+          <span class="image-tag">Movement-focused rehabilitation</span>
+        </div>
+        <div class="intro-copy">
+          <span class="eyebrow">Welcome to Rudra Physiotherapy</span>
+          <h2>Care that puts your movement first.</h2>
+          <p>Rudra Physiotherapy is a local physiotherapy practice in the Beleghata area of Kolkata, near Subhas Sarobar Park. The focus is on pain management, rehabilitation and helping people work towards better day-to-day mobility.</p>
+          <p>Whether you are dealing with an ongoing ache, recovering after an injury or supporting an older family member through rehabilitation, start with a conversation about your concern and the care that may be appropriate.</p>
+          <div class="intro-points">
+            <div class="intro-point"><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Listen to your concerns</div>
+            <div class="intro-point"><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Understand your movement goals</div>
+            <div class="intro-point"><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Discuss suitable next steps</div>
+            <div class="intro-point"><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Build consistency over time</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Physiotherapy &amp; rehabilitation</span>
+          <h2>How we may be able to help</h2>
+          <p>People enquire about physiotherapy for a range of pain, movement and recovery concerns. Contact the clinic to discuss your individual situation and suitability.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 4c2 2 2 5 0 7s-2 5 0 9M16 4c-2 2-2 5 0 7s2 5 0 9M8 8h8M8 16h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><h3>Back &amp; neck discomfort</h3><p>Support for stiffness, movement restriction and common back or neck pain concerns.</p></article>
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 3c1.5 2.8 1.5 5.2 0 7.5L6 14c-1 2 0 4.5 2.5 5.5M16 3c-1.5 2.8-1.5 5.2 0 7.5l2 3.5c1 2 0 4.5-2.5 5.5M8 10h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><h3>Knee, foot &amp; ankle pain</h3><p>Movement and mobility concerns that can affect walking, standing and daily activities.</p></article>
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 18c3-7 5-10 8-11 2-.6 4 .6 6 3M4 20h16M8 15l3 3 5-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Joint &amp; mobility care</h3><p>Help with stiffness, restricted movement and rebuilding confidence with everyday motion.</p></article>
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 13c4-1 5-6 8-6s4 5 8 4M5 18c3-1 5-3 7-3s4 2 7 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="5" r="2" stroke="currentColor" stroke-width="1.6"/></svg></span><h3>Injury recovery</h3><p>Rehabilitation support after accidents, sprains and other injuries, based on individual needs.</p></article>
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M5 8h14M7 8l-3 6h6L7 8Zm10 0-3 6h6l-3-6Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Post-surgery rehabilitation</h3><p>Guided recovery support after surgery, following the treating doctor's advice and clearance.</p></article>
+          <article class="service-card"><span class="service-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2.2" stroke="currentColor" stroke-width="1.7"/><path d="M12 8v5m0-2-4 3m4-3 4 3m-4-1-3 7m3-7 3 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><h3>Neuro &amp; stroke rehabilitation</h3><p>Rehabilitation support for mobility and functional movement after neurological conditions.</p></article>
+        </div>
+        <p class="service-note">This list is for general information only. A proper assessment is needed to decide whether a particular treatment is suitable.</p>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Movement in focus</span>
+          <h2>Physiotherapy, step by step.</h2>
+          <p>A glimpse of the kinds of guided movement and rehabilitation exercises commonly used in physiotherapy.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card"><img src="https://images.pexels.com/photos/31234755/pexels-photo-31234755/free-photo-of-physical-therapist-assisting-patient-in-rehab-session.jpeg?auto=compress&amp;dpr=1&amp;h=1100&amp;w=900" alt="Therapist assisting a patient during a rehabilitation session" loading="lazy"><figcaption class="gallery-caption">Guided rehabilitation</figcaption></figure>
+          <figure class="gallery-card"><img src="https://images.pexels.com/photos/20860594/pexels-photo-20860594/free-photo-of-physiotherapist-instructing-patient.jpeg?auto=compress&amp;dpr=1&amp;h=850&amp;w=1000" alt="Physiotherapist demonstrating a therapeutic exercise" loading="lazy"><figcaption class="gallery-caption">Exercise guidance</figcaption></figure>
+          <figure class="gallery-card"><img src="https://images.pexels.com/photos/20860624/pexels-photo-20860624/free-photo-of-patient-exercising-under-care-of-therapist.jpeg?auto=compress&amp;dpr=1&amp;h=850&amp;w=1000" alt="Patient practising a movement exercise with therapist support" loading="lazy"><figcaption class="gallery-caption">Building strength &amp; mobility</figcaption></figure>
+        </div>
+        <p class="stock-note">These are illustrative stock photographs, not verified photographs of Rudra Physiotherapy, its staff or premises. Replace them with the clinic's own photographs when available. Photos: <a href="https://www.pexels.com/photo/physical-therapist-assisting-patient-in-rehab-session-31234755/" target="_blank" rel="noopener">Pexels 1</a>, <a href="https://www.pexels.com/photo/physiotherapist-instructing-patient-20860594/" target="_blank" rel="noopener">Pexels 2</a>, <a href="https://www.pexels.com/photo/patient-exercising-under-care-of-therapist-20860624/" target="_blank" rel="noopener">Pexels 3</a>.</p>
+      </div>
+    </section>
+
+    <section class="section process" id="approach">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Getting started</span>
+          <h2>Your first visit, made simple.</h2>
+          <p>Know what to expect before you contact the clinic.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-number">01</span><h3>Get in touch</h3><p>Call or WhatsApp to explain your concern and ask about appointment availability, timing and fees.</p></article>
+          <article class="step-card"><span class="step-number">02</span><h3>Discuss your needs</h3><p>Share your symptoms, medical history and any relevant reports so the next steps can be discussed.</p></article>
+          <article class="step-card"><span class="step-number">03</span><h3>Plan the next step</h3><p>Ask about the assessment, recommended approach and follow-up before beginning treatment.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-visit">
+      <div class="wrap">
+        <div class="home-panel">
+          <div>
+            <span class="eyebrow">Need help at home?</span>
+            <h2>Ask about home-visit availability.</h2>
+            <p>If travelling to the clinic is difficult, call to ask whether a home visit may be available for your location. Please confirm the area, timing and charges directly with the clinic.</p>
+            <a class="btn btn-primary" href="https://wa.me/919674073711?text=Hello%20Rudra%20Physiotherapy%2C%20I%27d%20like%20to%20ask%20about%20home%20visit%20availability." target="_blank" rel="noopener">Enquire on WhatsApp <span aria-hidden="true">↗</span></a>
+          </div>
+          <img class="home-art" src="https://images.pexels.com/photos/20860580/pexels-photo-20860580/free-photo-of-physiotherapist-and-patient.jpeg?auto=compress&amp;dpr=1&amp;h=700&amp;w=1000" alt="Physiotherapy treatment session with therapist assistance" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section feedback" id="reviews">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Patient feedback</span>
+          <h2>What people value in their care.</h2>
+          <p>Public feedback for the clinic often mentions a patient approach, clear communication and support through longer recovery journeys.</p>
+        </div>
+        <div class="feedback-grid">
+          <div class="rating-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <strong>5.0</strong>
+            <p>Google listing rating<br>26 reviews at the time this page was updated</p>
+            <a href="https://www.google.com/maps/place/Rudra+Physiotherapy/@22.5692039,88.3905282,16.25z/data=!4m6!3m5!1s0x3a027702ded254b1:0x1b6b0f1e5f1e068f!8m2!3d22.5683448!4d88.3895992!16s%2Fg%2F11ty4h1k4l" target="_blank" rel="noopener">View Google listing &amp; reviews ↗</a>
+          </div>
+          <div>
+            <div class="feedback-points">
+              <article class="feedback-item"><h3>Patient communication</h3><p>Reviewers describe the therapist as polite, patient and willing to listen to their concerns.</p></article>
+              <article class="feedback-item"><h3>Clear explanations</h3><p>Feedback mentions having questions answered and understanding the care being provided.</p></article>
+              <article class="feedback-item"><h3>Support over time</h3><p>Some families describe ongoing rehabilitation support for older relatives and recovery needs.</p></article>
+              <article class="feedback-item"><h3>Consistency</h3><p>Reviewers also mention punctuality and continuity during their treatment period.</p></article>
+            </div>
+            <p class="feedback-disclaimer">Ratings and review comments reflect individual patient experiences and are not a guarantee of treatment outcomes. Rating and review count can change.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit" id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Find Rudra Physiotherapy</span>
+          <h2>Visit us in Beleghata.</h2>
+          <p>Use the map for directions to the clinic. Call ahead to confirm availability before travelling.</p>
+        </div>
+        <div class="visit-grid">
+          <div class="contact-card">
+            <div class="contact-block"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg></span><span><small>Clinic address</small><strong>132A, P.O., Raja Rajendra Lal Mitra Road, Kabi Sukanta Sarani, Subhas Sarobar Park, P.S. Beleghata, Kolkata, West Bengal 700010, India</strong></span></div>
+            <div class="contact-block"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6.6 3.8h2.7l1.3 4.1-1.8 1.6a15 15 0 0 0 5.7 5.7l1.6-1.8 4.1 1.3v2.7c0 1.1-.9 2-2 2C10.4 19.4 4.6 13.6 4.6 5.8c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span><small>Phone / WhatsApp</small><a href="tel:+919674073711">+91 96740 73711</a></span></div>
+            <div class="contact-block"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span><small>Listed opening hours</small><strong>Every day · 8:30 AM – 9:30 PM</strong></span></div>
+            <div class="visit-actions">
+              <a class="btn btn-primary" href="tel:+919674073711">Call the clinic</a>
+              <a class="btn btn-outline" href="https://wa.me/919674073711?text=Hello%20Rudra%20Physiotherapy%2C%20I%27d%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+          <div class="map-card">
+            <iframe title="Map showing Rudra Physiotherapy in Beleghata, Kolkata" src="https://www.google.com/maps?q=22.5683448,88.3895992&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <div class="map-bottom"><span>Rudra Physiotherapy · Beleghata, Kolkata</span><a href="https://www.google.com/maps/place/Rudra+Physiotherapy/@22.5692039,88.3905282,16.25z/data=!4m6!3m5!1s0x3a027702ded254b1:0x1b6b0f1e5f1e068f!8m2!3d22.5683448!4d88.3895992!16s%2Fg%2F11ty4h1k4l" target="_blank" rel="noopener">Open directions ↗</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="wrap faq-grid">
+        <div>
+          <span class="eyebrow">Before you visit</span>
+          <h2>Good to know.</h2>
+          <p style="color:var(--muted)">A few useful things to check before your first appointment.</p>
+        </div>
+        <div class="faq-list">
+          <details><summary>Should I call before visiting?</summary><p>Yes. Call the clinic to confirm the current appointment availability and preferred visit time.</p></details>
+          <details><summary>What should I bring?</summary><p>Bring relevant prescriptions, previous treatment notes, scans or reports, and a list of medicines you currently take.</p></details>
+          <details><summary>Can I ask about treatment fees?</summary><p>Yes. Fees are not published here, so please contact the clinic directly to confirm consultation and session charges.</p></details>
+          <details><summary>Are home visits available?</summary><p>Please call or WhatsApp to check whether home visits are currently available for your area, and confirm the timing and charges.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-main">
+        <a class="brand" href="#home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3.5c4.5 4.1 4.5 12.9 0 17-4.5-4.1-4.5-12.9 0-17Z" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.5v11M12 12l-3-2M12 15l3-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span><span class="brand-name">Rudra Physiotherapy</span><span class="brand-sub">Beleghata · Kolkata</span></span>
+        </a>
+        <p>Physiotherapy · Pain management · Rehabilitation</p>
+      </div>
+      <div class="footer-bottom"><p>© <span id="year">2026</span> Rudra Physiotherapy. All rights reserved.</p><p><a href="#contact">Find the clinic</a> &nbsp;·&nbsp; <a href="tel:+919674073711">+91 96740 73711</a></p></div>
+    </div>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Quick contact">
+    <a class="btn btn-primary" href="tel:+919674073711"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 3.8h2.7l1.3 4.1-1.8 1.6a15 15 0 0 0 5.7 5.7l1.6-1.8 4.1 1.3v2.7c0 1.1-.9 2-2 2C10.4 19.4 4.6 13.6 4.6 5.8c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Call now</a>
+    <a class="btn btn-outline" href="https://wa.me/919674073711?text=Hello%20Rudra%20Physiotherapy%2C%20I%27d%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>WhatsApp</a>
+  </nav>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('menuToggle');
+      const nav = document.getElementById('mainNav');
+      if (toggle && nav) {
+        toggle.addEventListener('click', function () {
+          const isOpen = nav.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', String(isOpen));
+          toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+        });
+        nav.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            nav.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.setAttribute('aria-label', 'Open menu');
+          });
+        });
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape') {
+            nav.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.setAttribute('aria-label', 'Open menu');
+          }
+        });
+      }
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const sections = document.querySelectorAll('main section[id]');
+      const navLinks = document.querySelectorAll('.main-nav a');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            navLinks.forEach(function (link) {
+              const active = link.getAttribute('href') === '#' + entry.target.id;
+              link.classList.toggle('active', active);
+            });
+          });
+        }, { rootMargin: '-35% 0px -55% 0px', threshold: 0 });
+        sections.forEach(function (section) { observer.observe(section); });
+      }
+    })();
+  </script>
+</body>
+</html>
